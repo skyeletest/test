@@ -1,0 +1,8 @@
+{
+  "index": {
+    "js": "/index.bundle.js"
+  },
+  "index.test": {
+    "js": "/index.test.bundle.js"
+  }
+}
