@@ -1,6 +1,12 @@
 <template>
   <div>
-    <h1>这是根路由</h1>
-    <router-link :to="{name: 'pages-Hello'}">Hello</router-link>
+    <!-- <router-link :to="{path: /login}"></router-link> -->
   </div>
 </template>
+
+<script>
+</script>
+
+<style lang="less" scoped>
+  
+</style>

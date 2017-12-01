@@ -1,8 +1,8 @@
 {
   "index": {
-    "js": "/index.bundle.js"
+    "js": "/assets/index.bundle.js"
   },
   "index.test": {
-    "js": "/index.test.bundle.js"
+    "js": "/assets/index.test.bundle.js"
   }
 }
