@@ -9,6 +9,7 @@ import echarts from 'echarts'
 import SCharts from '@qnpm/skyfchart'
 import FUI from '@qnpm/FUI'
 import '@qnpm/FUI/dist/styles/fui.min.css'
+import '../commons/base.less'
 
 Vue.use(FUI)
 Vue.use(SCharts, {name: 's-chart', d3, echarts})
