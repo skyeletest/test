@@ -8,6 +8,8 @@ axios.defaults.headers = {
 // 带cookie请求
 axios.defaults.withCredentials = true
 
+axios.defaults.timeout = 2000
+
 export default {
   getApi (url, options) {
     let res = axios.get(url, {
