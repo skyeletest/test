@@ -41,7 +41,7 @@ var config = {
   } ],
   dll: ['vue', 'vuex', 'vue-router'],  // dll的入口，删掉此选项可以不执行dll
   router: {
-    enable: true,    // 是否自动生成路由
+    enable: false,    // 是否自动生成路由
     routePrefix: '',  // 路由路径前缀
     lazyLoad: true,  // 懒加载
     chuck: {}   // 设置特定路径的router打包进同一个chuckname,可以是对象{chuckname1: ['', '/Hello']}或者为[],表示特定路由的会打包进router-chuck下

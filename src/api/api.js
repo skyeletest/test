@@ -11,13 +11,13 @@ axios.defaults.withCredentials = true
 axios.defaults.timeout = 2000
 
 export default {
-  getApi (url, options) {
+  getApi (url, options = {}) {
     let res = axios.get(url, {
       params: options
     })
     return res
   },
-  postApi (url, options) {
+  postApi (url, options = {}) {
     let res = axios.post(url, options)
     return res
   }

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <!-- <router-link :to="{path: /login}"></router-link> -->
+  <div class="index">
+    <router-link :to="{path: '/login'}" replace>login</router-link>
   </div>
 </template>
 
@@ -8,5 +8,7 @@
 </script>
 
 <style lang="less" scoped>
-  
+  .index {
+    color: #000;
+  }
 </style>

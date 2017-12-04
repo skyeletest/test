@@ -6,14 +6,14 @@ module.exports = {
   devServer: {
     host: '127.0.0.1',
     port: 3000,
-    // proxy: [ {
-    //   path: '', // your backend url path rules
-    //   config: {
-    //     target: 'http://ip:port',
-    //     changeOrigin: true,
-    //     logLevel: 'debug',
-    //     ws: true
-    //   }
-    // } ]
+    proxy: [ {
+      path: [/\/api/], // your backend url path rules
+      config: {
+        target: 'http://10.95.38.32:5200/mock/5a215088ddb50458805ac050',
+        changeOrigin: true,
+        logLevel: 'debug',
+        ws: true
+      }
+    } ]
   }
 }
