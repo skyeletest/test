@@ -3,9 +3,6 @@ const pages = r => require(['../pages/index.vue'], r)
 const pagesLogin = r => require(['../pages/login.vue'], r)
 let routes = [	{
 	path: '',
-	meta: {
-		requireAuth: true
-	},
 	component: pages,
 	name: 'pages'
 	},	{
