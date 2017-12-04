@@ -1,4 +1,4 @@
-# 教程1
+# 教程
 https://confluence.b.360.cn/pages/viewpage.action?pageId=10092607
 
 # 安装
