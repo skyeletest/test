@@ -1,0 +1,57 @@
+@import "./base.vars.less";
+
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: @bg-color;
+  color: @color-text;
+  font-family: 'Microsoft YaHei', Arial, sans-serif;
+}
+
+.fillcontain {
+  height: 100%;
+  width: 100%;
+}
+
+.clear {
+  zoom: 1;
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

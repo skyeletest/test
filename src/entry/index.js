@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './Index.vue'
 import Store from '../vuex'
-import config from '../commons/config'
+import config from '../commons/js/config'
 import frame from 'FRAME'
 import router from '../router'
 import d3 from 'd3'
@@ -9,7 +9,7 @@ import echarts from 'echarts'
 import SCharts from '@qnpm/skyfchart'
 import FUI from '@qnpm/FUI'
 import '@qnpm/FUI/dist/styles/fui.min.css'
-import '../commons/base.less'
+// import '../commons/base.less'
 
 Vue.use(FUI)
 Vue.use(SCharts, {name: 's-chart', d3, echarts})
