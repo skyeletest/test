@@ -1,7 +1,7 @@
 <template>
   <div class="manage fillcontain">
     <fui-row style="height: 100%;">
-      <fui-col :span="4" style="min-height: 100%; background-color: #324057;">
+      <fui-col :span="4" style="min-height: 100%; min-width:300px; background-color: #324057;">
         <fui-menu :default-active="defaultActive" style="min-height: 100%;" theme="dark" router>
           <fui-menu-item index="manage">
             <fui-icon type="Home"></fui-icon>首页
